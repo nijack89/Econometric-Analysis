@@ -178,7 +178,7 @@ airlines %>% ggplot(aes(x=log(PF),y=(residuals)^2)) +
 
 
 ## 殘差分析
-殘差平方與解釋變數log(PF)
+殘差平方與解釋變數PF
 ```{r, echo=TRUE, fig.height=3, fig.width=3}
 airlines %>% ggplot(aes(x=LF,y=(residuals)^2)) +
   geom_point()
